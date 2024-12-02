@@ -277,3 +277,13 @@ INSERT INTO `pais` (`id`, `nome`, `nome_pt`, `sigla`, `bacen`) VALUES
 
 ALTER TABLE `pais`
   ADD PRIMARY KEY (`id`);
+
+-- Alterações de estrutura da tabela original
+alter table pais drop column bacen;
+alter table pais drop column sigla;
+alter table pais drop column nome;
+
+alter table pais rename column id to code;
+alter table pais rename column nome_pt to nome;
+
+alter table pais rename to tb_pais;
