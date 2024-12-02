@@ -56,3 +56,7 @@
 > KETER2024120201110952TORAH
 
     🔵 feature: Implementar mapeamento das classes da funcionalidade de gerenciador de pessoas
+    🔵 feature: Inserir carga básica de paises
+    🔵 feature: Implementar endpoint da funcionalidade de gerenciador de pessoas
+    🔵 feature: Configurar acesso ao banco de dados MySQL localmente no ambiente de desenvolvimento
+    🟣 document: Atualização de documentação de projeto
