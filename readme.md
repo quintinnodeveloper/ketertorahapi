@@ -52,3 +52,7 @@
 > main
 
     🚀 init: Estrutura inicial do Projeto
+
+> KETER2024120201110952TORAH
+
+    🔵 feature: Implementar mapeamento das classes da funcionalidade de gerenciador de pessoas
