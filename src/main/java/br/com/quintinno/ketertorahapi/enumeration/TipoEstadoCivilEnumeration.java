@@ -1,5 +1,8 @@
 package br.com.quintinno.ketertorahapi.enumeration;
 
+import java.util.Arrays;
+import java.util.List;
+
 public enum TipoEstadoCivilEnumeration {
 
     SOLTEIRO(1, "Solteiro(a)"),
@@ -15,6 +18,10 @@ public enum TipoEstadoCivilEnumeration {
     private TipoEstadoCivilEnumeration(Integer code, String descricao) {
         this.code = code;
         this.descricao = descricao;
+    }
+
+    public static List<TipoEstadoCivilEnumeration> getTipoEstadoCivilEnumeration() {
+        return Arrays.asList(TipoEstadoCivilEnumeration.values());
     }
 
     public Integer getCode() {
