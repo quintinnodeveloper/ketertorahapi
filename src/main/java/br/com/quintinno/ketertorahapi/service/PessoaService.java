@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 import br.com.quintinno.ketertorahapi.entity.PessoaEntity;
 import br.com.quintinno.ketertorahapi.enumeration.TipoCorEnumeration;
 import br.com.quintinno.ketertorahapi.enumeration.TipoEstadoCivilEnumeration;
+import br.com.quintinno.ketertorahapi.enumeration.TipoGeneroEnumeration;
 import br.com.quintinno.ketertorahapi.enumeration.TipoPessoaEnumeration;
 import br.com.quintinno.ketertorahapi.enumeration.TipoSanguineoEnumeration;
 import br.com.quintinno.ketertorahapi.repository.PessoaRepository;
@@ -40,6 +41,10 @@ public class PessoaService {
 
     public TipoPessoaEnumeration[] getTipoPessoaEnumeration() {
         return TipoPessoaEnumeration.values();
+    }
+
+    public TipoGeneroEnumeration[] getTipoGeneroEnumeration() {
+        return TipoGeneroEnumeration.values();
     }
 
 }

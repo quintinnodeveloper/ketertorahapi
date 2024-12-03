@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 import br.com.quintinno.ketertorahapi.entity.PessoaEntity;
 import br.com.quintinno.ketertorahapi.enumeration.TipoCorEnumeration;
 import br.com.quintinno.ketertorahapi.enumeration.TipoEstadoCivilEnumeration;
+import br.com.quintinno.ketertorahapi.enumeration.TipoGeneroEnumeration;
 import br.com.quintinno.ketertorahapi.enumeration.TipoPessoaEnumeration;
 import br.com.quintinno.ketertorahapi.enumeration.TipoSanguineoEnumeration;
 import br.com.quintinno.ketertorahapi.service.PessoaService;
@@ -53,6 +54,11 @@ public class PessoaController {
     @GetMapping("/tipo-pessoa/v1")
     public TipoPessoaEnumeration[] getTipoPessoaEnumeration() {
         return this.pessoaService.getTipoPessoaEnumeration();
+    }
+
+    @GetMapping("/tipo-genero/v1")
+    public TipoGeneroEnumeration[] getGeneroEnumeration() {
+        return this.pessoaService.getTipoGeneroEnumeration();
     }
 
 }
