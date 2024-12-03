@@ -4,6 +4,7 @@ import java.time.LocalDate;
 
 import br.com.quintinno.ketertorahapi.enumeration.TipoCorEnumeration;
 import br.com.quintinno.ketertorahapi.enumeration.TipoEstadoCivilEnumeration;
+import br.com.quintinno.ketertorahapi.enumeration.TipoPessoaEnumeration;
 import br.com.quintinno.ketertorahapi.enumeration.TipoSanguineoEnumeration;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -28,6 +29,10 @@ public class PessoaEntity {
     @ManyToOne
     @JoinColumn(name = "ID_PAIS")
     private PaisEntity paisEntity;
+
+    @Enumerated(EnumType.STRING)
+    @Column(name = "TIPO_PESSOA", nullable = false)
+    private TipoPessoaEnumeration tipoPessoaEnumeration;
 
     @Enumerated(EnumType.STRING)
     @Column(name = "TIPO_COR")
@@ -66,6 +71,14 @@ public class PessoaEntity {
 
     public void setPaisEntity(PaisEntity paisEntity) {
         this.paisEntity = paisEntity;
+    }
+
+    public TipoPessoaEnumeration getTipoPessoaEnumeration() {
+        return tipoPessoaEnumeration;
+    }
+
+    public void setTipoPessoaEnumeration(TipoPessoaEnumeration tipoPessoaEnumeration) {
+        this.tipoPessoaEnumeration = tipoPessoaEnumeration;
     }
 
     public TipoCorEnumeration getTipoCorEnumeration() {
