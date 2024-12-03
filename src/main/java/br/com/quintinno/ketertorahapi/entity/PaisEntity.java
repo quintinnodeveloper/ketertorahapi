@@ -19,9 +19,6 @@ public class PaisEntity {
     @Column(name = "NOME", length = 100, unique = true, nullable = false)
     private String nome;
 
-    @Column(name = "SIGLA", length = 2, unique = true, nullable = false)
-    private String sigla;
-
     public PaisEntity() { }
 
     public Long getCode() {
@@ -38,14 +35,6 @@ public class PaisEntity {
 
     public void setNome(String nome) {
         this.nome = nome;
-    }
-
-    public String getSigla() {
-        return sigla;
-    }
-
-    public void setSigla(String sigla) {
-        this.sigla = sigla;
     }
     
 }
