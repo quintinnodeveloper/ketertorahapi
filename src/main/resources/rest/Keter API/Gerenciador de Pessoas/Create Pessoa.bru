@@ -1,0 +1,25 @@
+meta {
+  name: Create Pessoa
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:8080/api/pessoa/v1
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "paisEntity": {
+      "code": 1
+    },
+    "tipoCorEnumeration":"BRANCA",
+    "tipoSanguineoEnumeration":"A_POSITIVO",
+    "tipoEstadoCivilEnumeration":"UNIAO_ESTAVEL",
+    "nomeCompleto":"Renata Tânia Rebeca Peixoto",
+    "dataNascimento":"1986-02-03",
+    "ativo":"true"
+  }
+}
