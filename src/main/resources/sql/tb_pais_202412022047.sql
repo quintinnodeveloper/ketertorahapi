@@ -1,4 +1,4 @@
-INSERT INTO db_keter.tb_pais (code,nome) VALUES
+INSERT INTO tb_pais (code,nome) VALUES
 	 (1,'Brasil'),
 	 (2,'Afeganistão'),
 	 (3,'Albânia, Republica da'),
@@ -9,7 +9,7 @@ INSERT INTO db_keter.tb_pais (code,nome) VALUES
 	 (8,'Anguilla'),
 	 (9,'Antártida'),
 	 (10,'Antigua e Barbuda');
-INSERT INTO db_keter.tb_pais (code,nome) VALUES
+INSERT INTO tb_pais (code,nome) VALUES
 	 (11,'Argentina'),
 	 (12,'Armênia, Republica da'),
 	 (13,'Aruba'),
@@ -20,7 +20,7 @@ INSERT INTO db_keter.tb_pais (code,nome) VALUES
 	 (18,'Bahrein, Ilhas'),
 	 (19,'Bangladesh'),
 	 (20,'Barbados');
-INSERT INTO db_keter.tb_pais (code,nome) VALUES
+INSERT INTO tb_pais (code,nome) VALUES
 	 (21,'Belarus, Republica da'),
 	 (22,'Bélgica'),
 	 (23,'Belize'),
@@ -31,7 +31,7 @@ INSERT INTO db_keter.tb_pais (code,nome) VALUES
 	 (28,'Bósnia-herzegovina (Republica da)'),
 	 (29,'Botsuana'),
 	 (30,'Bouvet, Ilha');
-INSERT INTO db_keter.tb_pais (code,nome) VALUES
+INSERT INTO tb_pais (code,nome) VALUES
 	 (31,'Território Britânico do Oceano Indico'),
 	 (32,'Brunei'),
 	 (33,'Bulgária, Republica da'),
@@ -42,7 +42,7 @@ INSERT INTO db_keter.tb_pais (code,nome) VALUES
 	 (38,'Canada'),
 	 (39,'Cabo Verde, Republica de'),
 	 (40,'Cayman, Ilhas');
-INSERT INTO db_keter.tb_pais (code,nome) VALUES
+INSERT INTO tb_pais (code,nome) VALUES
 	 (41,'Republica Centro-Africana'),
 	 (42,'Chade'),
 	 (43,'Chile'),
@@ -53,7 +53,7 @@ INSERT INTO db_keter.tb_pais (code,nome) VALUES
 	 (48,'Comores, Ilhas'),
 	 (49,'Congo'),
 	 (50,'Congo, Republica Democrática do');
-INSERT INTO db_keter.tb_pais (code,nome) VALUES
+INSERT INTO tb_pais (code,nome) VALUES
 	 (51,'Cook, Ilhas'),
 	 (52,'Costa Rica'),
 	 (53,'Costa do Marfim'),
@@ -64,7 +64,7 @@ INSERT INTO db_keter.tb_pais (code,nome) VALUES
 	 (58,'Dinamarca'),
 	 (59,'Djibuti'),
 	 (60,'Dominica, Ilha');
-INSERT INTO db_keter.tb_pais (code,nome) VALUES
+INSERT INTO tb_pais (code,nome) VALUES
 	 (61,'Republica Dominicana'),
 	 (62,'Timor Leste'),
 	 (63,'Equador'),
@@ -75,7 +75,7 @@ INSERT INTO db_keter.tb_pais (code,nome) VALUES
 	 (68,'Estônia, Republica da'),
 	 (69,'Etiópia'),
 	 (70,'Falkland (Ilhas Malvinas)');
-INSERT INTO db_keter.tb_pais (code,nome) VALUES
+INSERT INTO tb_pais (code,nome) VALUES
 	 (71,'Feroe, Ilhas'),
 	 (72,'Fiji'),
 	 (73,'Finlândia'),
@@ -86,7 +86,7 @@ INSERT INTO db_keter.tb_pais (code,nome) VALUES
 	 (79,'Gabão'),
 	 (80,'Gambia'),
 	 (81,'Georgia, Republica da');
-INSERT INTO db_keter.tb_pais (code,nome) VALUES
+INSERT INTO tb_pais (code,nome) VALUES
 	 (82,'Alemanha'),
 	 (83,'Gana'),
 	 (84,'Gibraltar'),
@@ -97,7 +97,7 @@ INSERT INTO db_keter.tb_pais (code,nome) VALUES
 	 (89,'Guam'),
 	 (90,'Guatemala'),
 	 (91,'Guine');
-INSERT INTO db_keter.tb_pais (code,nome) VALUES
+INSERT INTO tb_pais (code,nome) VALUES
 	 (92,'Guine-Bissau'),
 	 (93,'Guiana'),
 	 (94,'Haiti'),
@@ -108,7 +108,7 @@ INSERT INTO db_keter.tb_pais (code,nome) VALUES
 	 (99,'Hungria, Republica da'),
 	 (100,'Islândia'),
 	 (101,'Índia');
-INSERT INTO db_keter.tb_pais (code,nome) VALUES
+INSERT INTO tb_pais (code,nome) VALUES
 	 (102,'Indonésia'),
 	 (103,'Ira, Republica Islâmica do'),
 	 (104,'Iraque'),
@@ -119,7 +119,7 @@ INSERT INTO db_keter.tb_pais (code,nome) VALUES
 	 (109,'Japão'),
 	 (110,'Jordânia'),
 	 (111,'Cazaquistão, Republica do');
-INSERT INTO db_keter.tb_pais (code,nome) VALUES
+INSERT INTO tb_pais (code,nome) VALUES
 	 (112,'Quênia'),
 	 (113,'Kiribati'),
 	 (114,'Coreia, Republica Popular Democrática da'),
@@ -130,7 +130,7 @@ INSERT INTO db_keter.tb_pais (code,nome) VALUES
 	 (119,'Letônia, Republica da'),
 	 (120,'Líbano'),
 	 (121,'Lesoto');
-INSERT INTO db_keter.tb_pais (code,nome) VALUES
+INSERT INTO tb_pais (code,nome) VALUES
 	 (122,'Libéria'),
 	 (123,'Líbia'),
 	 (124,'Liechtenstein'),
@@ -141,7 +141,7 @@ INSERT INTO db_keter.tb_pais (code,nome) VALUES
 	 (129,'Madagascar'),
 	 (130,'Malavi'),
 	 (131,'Malásia');
-INSERT INTO db_keter.tb_pais (code,nome) VALUES
+INSERT INTO tb_pais (code,nome) VALUES
 	 (132,'Maldivas'),
 	 (133,'Mali'),
 	 (134,'Malta'),
@@ -152,7 +152,7 @@ INSERT INTO db_keter.tb_pais (code,nome) VALUES
 	 (139,'Mayotte (Ilhas Francesas)'),
 	 (140,'México'),
 	 (141,'Micronesia');
-INSERT INTO db_keter.tb_pais (code,nome) VALUES
+INSERT INTO tb_pais (code,nome) VALUES
 	 (142,'Moldávia, Republica da'),
 	 (143,'Mônaco'),
 	 (144,'Mongólia'),
@@ -163,7 +163,7 @@ INSERT INTO db_keter.tb_pais (code,nome) VALUES
 	 (149,'Namíbia'),
 	 (150,'Nauru'),
 	 (151,'Nepal');
-INSERT INTO db_keter.tb_pais (code,nome) VALUES
+INSERT INTO tb_pais (code,nome) VALUES
 	 (152,'Países Baixos (Holanda)'),
 	 (154,'Nova Caledonia'),
 	 (155,'Nova Zelândia'),
@@ -174,7 +174,7 @@ INSERT INTO db_keter.tb_pais (code,nome) VALUES
 	 (160,'Norfolk, Ilha'),
 	 (161,'Marianas do Norte'),
 	 (162,'Noruega');
-INSERT INTO db_keter.tb_pais (code,nome) VALUES
+INSERT INTO tb_pais (code,nome) VALUES
 	 (163,'Oma'),
 	 (164,'Paquistão'),
 	 (165,'Palau'),
@@ -185,7 +185,7 @@ INSERT INTO db_keter.tb_pais (code,nome) VALUES
 	 (170,'Filipinas'),
 	 (171,'Pitcairn, Ilha'),
 	 (172,'Polônia, Republica da');
-INSERT INTO db_keter.tb_pais (code,nome) VALUES
+INSERT INTO tb_pais (code,nome) VALUES
 	 (173,'Portugal'),
 	 (174,'Porto Rico'),
 	 (175,'Catar'),
@@ -196,7 +196,7 @@ INSERT INTO db_keter.tb_pais (code,nome) VALUES
 	 (180,'São Cristovão e Neves, Ilhas'),
 	 (181,'Santa Lucia'),
 	 (182,'São Vicente e Granadinas');
-INSERT INTO db_keter.tb_pais (code,nome) VALUES
+INSERT INTO tb_pais (code,nome) VALUES
 	 (183,'Samoa'),
 	 (184,'San Marino'),
 	 (185,'São Tome e Príncipe, Ilhas'),
@@ -207,7 +207,7 @@ INSERT INTO db_keter.tb_pais (code,nome) VALUES
 	 (190,'Cingapura'),
 	 (191,'Eslovaca, Republica'),
 	 (192,'Eslovênia, Republica da');
-INSERT INTO db_keter.tb_pais (code,nome) VALUES
+INSERT INTO tb_pais (code,nome) VALUES
 	 (193,'Salomão, Ilhas'),
 	 (194,'Somalia'),
 	 (195,'África do Sul'),
@@ -218,7 +218,7 @@ INSERT INTO db_keter.tb_pais (code,nome) VALUES
 	 (200,'São Pedro e Miquelon'),
 	 (201,'Sudão'),
 	 (202,'Suriname');
-INSERT INTO db_keter.tb_pais (code,nome) VALUES
+INSERT INTO tb_pais (code,nome) VALUES
 	 (203,'Svalbard e Jan Mayen'),
 	 (204,'Eswatini'),
 	 (205,'Suécia'),
@@ -229,7 +229,7 @@ INSERT INTO db_keter.tb_pais (code,nome) VALUES
 	 (210,'Tanzânia, Republica Unida da'),
 	 (211,'Tailândia'),
 	 (212,'Togo');
-INSERT INTO db_keter.tb_pais (code,nome) VALUES
+INSERT INTO tb_pais (code,nome) VALUES
 	 (213,'Toquelau, Ilhas'),
 	 (214,'Tonga'),
 	 (215,'Trinidad e Tobago'),
@@ -240,7 +240,7 @@ INSERT INTO db_keter.tb_pais (code,nome) VALUES
 	 (220,'Tuvalu'),
 	 (221,'Uganda'),
 	 (222,'Ucrânia');
-INSERT INTO db_keter.tb_pais (code,nome) VALUES
+INSERT INTO tb_pais (code,nome) VALUES
 	 (223,'Emirados Árabes Unidos'),
 	 (224,'Reino Unido'),
 	 (225,'Estados Unidos'),
@@ -251,7 +251,7 @@ INSERT INTO db_keter.tb_pais (code,nome) VALUES
 	 (230,'Venezuela'),
 	 (231,'Vietnã'),
 	 (232,'Virgens, Ilhas (Britânicas)');
-INSERT INTO db_keter.tb_pais (code,nome) VALUES
+INSERT INTO tb_pais (code,nome) VALUES
 	 (233,'Virgens, Ilhas (E.U.A.)'),
 	 (234,'Wallis e Futuna, Ilhas'),
 	 (235,'Saara Ocidental'),
@@ -262,7 +262,7 @@ INSERT INTO db_keter.tb_pais (code,nome) VALUES
 	 (240,'Guernsey, Ilha do Canal (Inclui Alderney e Sark)'),
 	 (241,'Jersey, Ilha do Canal'),
 	 (243,'Man, Ilha de');
-INSERT INTO db_keter.tb_pais (code,nome) VALUES
+INSERT INTO tb_pais (code,nome) VALUES
 	 (246,'Montenegro'),
 	 (247,'Republika Srbija'),
 	 (248,'Sudao do Sul'),
@@ -273,7 +273,7 @@ INSERT INTO db_keter.tb_pais (code,nome) VALUES
 	 (256,'São Martinho, Ilha de (Parte Holandesa)'),
 	 (258,'Bonaire'),
 	 (259,'Antartica');
-INSERT INTO db_keter.tb_pais (code,nome) VALUES
+INSERT INTO tb_pais (code,nome) VALUES
 	 (260,'Ilha Herad e Ilhas Macdonald'),
 	 (261,'São Bartolomeu'),
 	 (262,'São Martinho, Ilha de (Parte Francesa)'),
