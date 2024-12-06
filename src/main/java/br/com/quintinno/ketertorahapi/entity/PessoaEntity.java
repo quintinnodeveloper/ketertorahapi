@@ -27,7 +27,7 @@ public class PessoaEntity {
     private Long code;
 
     @ManyToOne
-    @JoinColumn(name = "ID_PAIS")
+    @JoinColumn(name = "ID_PAIS", nullable = false)
     private PaisEntity paisEntity;
 
     @Enumerated(EnumType.STRING)
@@ -55,7 +55,7 @@ public class PessoaEntity {
     @Column(name = "ATIVO", nullable = false)
     private Boolean ativo;
 
-    public PessoaEntity() { }
+    public PessoaEntity() {}
 
     public Long getCode() {
         return code;
