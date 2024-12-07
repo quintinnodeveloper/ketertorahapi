@@ -60,3 +60,8 @@
     🔵 feature: Implementar endpoint da funcionalidade de gerenciador de pessoas
     🔵 feature: Configurar acesso ao banco de dados MySQL localmente no ambiente de desenvolvimento
     🟣 document: Atualização de documentação de projeto
+
+> KETER2024120701100712TORAH
+
+    🔵 feature: Implementar paginação de dados
+    🔵 feature: Implementar dados de teste de paginação
