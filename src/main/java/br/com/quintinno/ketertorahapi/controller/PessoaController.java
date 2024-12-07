@@ -3,11 +3,14 @@ package br.com.quintinno.ketertorahapi.controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import br.com.quintinno.ketertorahapi.entity.PessoaEntity;
@@ -32,8 +35,10 @@ public class PessoaController {
     }
 
     @GetMapping("/v1")
-    public List<PessoaEntity> readAll() {
-        return this.pessoaService.readAll();
+    public ResponseEntity<Page<PessoaEntity>> readAll(
+        @RequestParam(defaultValue = "0") Integer numeroPagina, @RequestParam(defaultValue = "10") Integer tamanhoPagina) {
+        Page<PessoaEntity> pessoaEntityList = this.pessoaService.readAll(numeroPagina, tamanhoPagina);
+        return ResponseEntity.ok(pessoaEntityList);
     }
 
     @GetMapping("/tipo-cor/v1")

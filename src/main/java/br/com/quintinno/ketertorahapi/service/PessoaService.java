@@ -3,6 +3,9 @@ package br.com.quintinno.ketertorahapi.service;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import br.com.quintinno.ketertorahapi.entity.PessoaEntity;
@@ -23,8 +26,9 @@ public class PessoaService {
         return this.pessoaRepository.save(pessoaEntity);
     }
 
-    public List<PessoaEntity> readAll() {
-        return this.pessoaRepository.findAll();
+    public Page<PessoaEntity> readAll(Integer numeroPagina, Integer tamanhoPagina) {
+        Pageable pageable = PageRequest.of(numeroPagina, tamanhoPagina);
+        return this.pessoaRepository.findAll(pageable);
     }
 
     public List<TipoCorEnumeration> getTipoCorEnumeration() {
